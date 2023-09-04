@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "c0cb919b-1757-473a-bacc-81c74b7df7d0",
+		"name": "weather",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29518984"
+	},
+	"item": [
+		{
+			"name": "https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6%20907d289e10d714a6e88b30761fae22.",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=b6%20907d289e10d714a6e88b30761fae22.",
+					"protocol": "https",
+					"host": [
+						"samples",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "London,uk"
+						},
+						{
+							"key": "appid",
+							"value": "b6%20907d289e10d714a6e88b30761fae22."
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://samples.openweathermap.org/data/2.5/weather?q=Paris,fr&appid=b6907d289e10d714a6e88b30761fae22\n",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://samples.openweathermap.org/data/2.5/weather?q=Paris,fr&appid=b6907d289e10d714a6e88b30761fae22\n",
+					"protocol": "https",
+					"host": [
+						"samples",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "Paris,fr"
+						},
+						{
+							"key": "appid",
+							"value": "b6907d289e10d714a6e88b30761fae22\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://samples.openweathermap.org/data/2.5/weather?q=InvalidCity,InvalidCountry&appid=b6907d289e10d714a6e88b30761fae22\n",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://samples.openweathermap.org/data/2.5/weather?q=InvalidCity,InvalidCountry&appid=b6907d289e10d714a6e88b30761fae22\n",
+					"protocol": "https",
+					"host": [
+						"samples",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "InvalidCity,InvalidCountry"
+						},
+						{
+							"key": "appid",
+							"value": "b6907d289e10d714a6e88b30761fae22\n"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=YOUR_API_KEY\n",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://samples.openweathermap.org/data/2.5/weather?q=London,uk&appid=YOUR_API_KEY\n",
+					"protocol": "https",
+					"host": [
+						"samples",
+						"openweathermap",
+						"org"
+					],
+					"path": [
+						"data",
+						"2.5",
+						"weather"
+					],
+					"query": [
+						{
+							"key": "q",
+							"value": "London,uk"
+						},
+						{
+							"key": "appid",
+							"value": "YOUR_API_KEY\n"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
